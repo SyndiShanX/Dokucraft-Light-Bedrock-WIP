@@ -1,0 +1,22 @@
+{
+  "namespace": "furnace",
+
+
+  //---------------------------------------------------------------------------
+  // Furnace
+  //---------------------------------------------------------------------------
+
+  "flame_panel": {
+    "type": "panel",
+    "size": [ 18, 18 ],
+    "offset": [ -21, 0 ],
+    "controls": [
+      {
+        "flame_empty_image@furnace.flame_empty_image": {}
+      },
+      {
+        "flame_full_image@furnace.flame_full_image": {}
+      }
+    ]
+  }
+}

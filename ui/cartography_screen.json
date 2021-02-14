@@ -1,0 +1,20 @@
+{
+  "namespace": "cartography",
+
+  "output_description_label": {
+    "type": "label",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "top_middle",
+    "text": "#text",
+    "size": [ "100%", 20 ],
+    "text_alignment": "center",
+    "color": "$title_text_color",
+
+    "bindings": [
+      {
+        "binding_name": "#output_description",
+        "binding_name_override": "#text"
+      }
+    ]
+  }
+}

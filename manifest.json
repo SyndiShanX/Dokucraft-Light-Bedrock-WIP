@@ -1,0 +1,18 @@
+{
+  "format_version" : 2,
+  "header" : {
+    "version" : [ 1, 1, 5 ],
+  	"description" : "\u00A74Light and fluffy\n\u00A76By Dokucraft TSC\n\u00A75Java",
+    "name" : "Dokucraft Light Java",
+  	"uuid" : "71a0ded2-8a08-48a3-a8b3-0cc623219756",
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+		  "version" : [ 1, 1, 5 ],
+		  "description" : "\u00A74Light and fluffy\n\u00A76By Dokucraft TSC\n\u00A75Java",
+      "type" : "resources",
+      "uuid" : "352376cd-7bd2-417f-943d-182f6b987ce9"
+    }
+  ]
+}
