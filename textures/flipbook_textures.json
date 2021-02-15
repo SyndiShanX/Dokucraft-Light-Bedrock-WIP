@@ -1,13 +1,8 @@
-/****************************
-+*    Dokucraft Light    *
-+****************************/
 [
 	{
-    "flipbook_texture": "textures/blocks/detector_rail_on",
-    "atlas_tile": "rail_activator_powered",
-		"ticks_per_frame": 20
-  },
-  {
+		"resource_pack_name": "Dokucraft Light"
+	},
+	{
     "flipbook_texture": "textures/blocks/blast_furnace_front_on",
     "atlas_tile": "blast_furnace_front_on"
   },
@@ -28,6 +23,42 @@
     "atlas_tile": "cauldron_water"
   },
   {
+    "flipbook_texture": "textures/blocks/chain_command_block_back",
+    "atlas_tile": "chain_command_block_back"
+  },
+  {
+    "flipbook_texture": "textures/blocks/chain_command_block_conditional",
+    "atlas_tile": "chain_command_block_conditional"
+  },
+  {
+    "flipbook_texture": "textures/blocks/chain_command_block_front",
+    "atlas_tile": "chain_command_block_front"
+  },
+  {
+    "flipbook_texture": "textures/blocks/chain_command_block_side",
+    "atlas_tile": "chain_command_block_side"
+  },
+  {
+    "flipbook_texture": "textures/blocks/command_block",
+    "atlas_tile": "command_block"
+  },
+  {
+    "flipbook_texture": "textures/blocks/command_block_back",
+    "atlas_tile": "command_block_back"
+  },
+  {
+    "flipbook_texture": "textures/blocks/command_block_conditional",
+    "atlas_tile": "command_block_conditional"
+  },
+  {
+    "flipbook_texture": "textures/blocks/command_block_front",
+    "atlas_tile": "command_block_front"
+  },
+  {
+    "flipbook_texture": "textures/blocks/command_block_side",
+    "atlas_tile": "command_block_side"
+  },
+  {
     "flipbook_texture": "textures/blocks/comparator_on",
     "atlas_tile": "comparator_on"
   },
@@ -40,14 +71,19 @@
     "atlas_tile": "conduit_wind_vertical"
   },
   {
+    "flipbook_texture": "textures/blocks/crimson_stem",
+    "atlas_tile": "crimson_log_side",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/crimson_stem_top",
+    "atlas_tile": "crimson_log_top",
+    "ticks_per_frame": 20
+  },
+  {
     "flipbook_texture": "textures/blocks/crying_obsidian",
     "atlas_tile": "crying_obsidian",
     "ticks_per_frame": 20
-  },
-	{
-    "flipbook_texture": "textures/blocks/detector_rail_on",
-    "atlas_tile": "rail_detector_powered",
-		"ticks_per_frame": 20
   },
   {
     "flipbook_texture": "textures/blocks/enchanting_table_side",
@@ -66,22 +102,20 @@
     "atlas_tile": "fire_1"
   },
   {
+    "flipbook_texture": "textures/blocks/lava_flow",
+    "atlas_tile": "flowing_lava"
+  },
+  {
+    "flipbook_texture": "textures/blocks/water_flow",
+    "atlas_tile": "flowing_water"
+  },
+  {
+    "flipbook_texture": "textures/blocks/water_flow_grey",
+    "atlas_tile": "flowing_water_grey"
+  },
+  {
     "flipbook_texture": "textures/blocks/furnace_front_on",
     "atlas_tile": "furnace_front_on"
-  },
-  {
-    "flipbook_texture": "textures/blocks/crimson_stem",
-    "atlas_tile": "crimson_log_side",
-    "ticks_per_frame": 20
-  },
-  {
-    "flipbook_texture": "textures/blocks/crimson_stem_top",
-    "atlas_tile": "crimson_log_top",
-    "ticks_per_frame": 20
-  },
-	{
-    "flipbook_texture": "textures/blocks/jack_o_lantern",
-    "atlas_tile": "pumpkin_face_on"
   },
   {
     "flipbook_texture": "textures/blocks/jigsaw_back",
@@ -103,7 +137,7 @@
     "atlas_tile": "jigsaw_side",
     "ticks_per_frame": 20
   },
-	{
+  {
     "flipbook_texture": "textures/blocks/jukebox_top",
     "atlas_tile": "jukebox_top"
   },
@@ -135,14 +169,6 @@
     "flipbook_texture": "textures/blocks/lantern",
     "atlas_tile": "lantern"
   },
-  {
-    "flipbook_texture": "textures/blocks/lava_flow",
-    "atlas_tile": "flowing_lava"
-  },
-  {
-    "flipbook_texture": "textures/blocks/lava_still",
-    "atlas_tile": "still_lava"
-  },
 	{
     "flipbook_texture": "textures/blocks/magma",
 		"atlas_tile": "magma",
@@ -157,13 +183,28 @@
     "atlas_tile": "portal"
   },
 	{
-    "flipbook_texture": "textures/blocks/powered_rail_on",
-    "atlas_tile": "rail_golden_powered",
+    "flipbook_texture": "textures/blocks/prismarine",
+    "atlas_tile": "prismarine",
+    "frames": [ 0 ]
+  },
+  {
+    "flipbook_texture": "textures/blocks/jack_o_lantern",
+    "atlas_tile": "pumpkin_face_on"
+  },
+  {
+    "flipbook_texture": "textures/blocks/detector_rail_on",
+    "atlas_tile": "rail_activator_powered",
+		"ticks_per_frame": 20
+  },
+	{
+    "flipbook_texture": "textures/blocks/detector_rail_on",
+    "atlas_tile": "rail_detector_powered",
 		"ticks_per_frame": 20
   },
   {
-    "flipbook_texture": "textures/blocks/prismarine_rough",
-    "atlas_tile": "prismarine"
+    "flipbook_texture": "textures/blocks/powered_rail_on",
+    "atlas_tile": "rail_golden_powered",
+		"ticks_per_frame": 20
   },
   {
     "flipbook_texture": "textures/blocks/redstone_block",
@@ -186,6 +227,22 @@
   {
     "flipbook_texture": "textures/blocks/repeater_on",
     "atlas_tile": "repeater_on"
+  },
+  {
+    "flipbook_texture": "textures/blocks/repeating_command_block_back",
+    "atlas_tile": "repeating_command_block_back"
+  },
+  {
+    "flipbook_texture": "textures/blocks/repeating_command_block_conditional",
+    "atlas_tile": "repeating_command_block_conditional"
+  },
+  {
+    "flipbook_texture": "textures/blocks/repeating_command_block_front",
+    "atlas_tile": "repeating_command_block_front"
+  },
+  {
+    "flipbook_texture": "textures/blocks/repeating_command_block_side",
+    "atlas_tile": "repeating_command_block_side"
   },
   {
     "flipbook_texture": "textures/blocks/respawn_anchor_bottom",
@@ -271,18 +328,33 @@
     "ticks_per_frame": 2
   },
   {
+    "flipbook_texture": "textures/blocks/lava_still",
+    "atlas_tile": "still_lava"
+  },
+  {
+    "flipbook_texture": "textures/blocks/water_still",
+    "atlas_tile": "still_water"
+  },
+  {
+    "flipbook_texture": "textures/blocks/water_still_grey",
+    "atlas_tile": "still_water_grey"
+  },
+  {
     "flipbook_texture": "textures/blocks/stonecutter_saw",
     "atlas_tile": "stonecutter2_saw"
+  },
+  {
+    "flipbook_texture": "textures/blocks/structure_block_load",
+    "atlas_tile": "structure_block_load"
+  },
+  {
+    "flipbook_texture": "textures/blocks/structure_block_save",
+    "atlas_tile": "structure_block_save"
   },
   {
     "flipbook_texture": "textures/blocks/torch_on",
     "atlas_tile": "torch_on",
     "ticks_per_frame": 2
-  },
-  {
-    "flipbook_texture": "textures/blocks/warped_stem",
-    "atlas_tile": "warped_stem_side",
-    "ticks_per_frame": 20
   },
   {
     "flipbook_texture": "textures/blocks/warped_roots",
@@ -295,206 +367,8 @@
     "ticks_per_frame": 20
   },
   {
-    "flipbook_texture": "textures/blocks/water_flow",
-    "atlas_tile": "flowing_water"
-  },
-  {
-    "flipbook_texture": "textures/blocks/water_flow_grey",
-    "atlas_tile": "flowing_water_grey"
-  },
-  {
-    "flipbook_texture": "textures/blocks/water_still",
-    "atlas_tile": "still_water"
-  },
-  {
-    "flipbook_texture": "textures/blocks/water_still_grey",
-    "atlas_tile": "still_water_grey"
-  },
-  {
-    "flipbook_texture": "textures/blocks/structure_block_load",
-    "atlas_tile": "structure_block_load"
-  },
-  {
-    "flipbook_texture": "textures/blocks/structure_block_save",
-    "atlas_tile": "structure_block_save"
-  },
-  {
-    "flipbook_texture": "textures/blocks/command_block",
-    "atlas_tile": "command_block"
-  },
-  {
-    "flipbook_texture": "textures/blocks/chain_command_block_back",
-    "atlas_tile": "chain_command_block_back"
-  },
-  {
-    "flipbook_texture": "textures/blocks/chain_command_block_conditional",
-    "atlas_tile": "chain_command_block_conditional"
-  },
-  {
-    "flipbook_texture": "textures/blocks/chain_command_block_front",
-    "atlas_tile": "chain_command_block_front"
-  },
-  {
-    "flipbook_texture": "textures/blocks/chain_command_block_side",
-    "atlas_tile": "chain_command_block_side"
-  },
-  {
-    "flipbook_texture": "textures/blocks/command_block_back",
-    "atlas_tile": "command_block_back"
-  },
-  {
-    "flipbook_texture": "textures/blocks/command_block_conditional",
-    "atlas_tile": "command_block_conditional"
-  },
-  {
-    "flipbook_texture": "textures/blocks/command_block_front",
-    "atlas_tile": "command_block_front"
-  },
-  {
-    "flipbook_texture": "textures/blocks/command_block_side",
-    "atlas_tile": "command_block_side"
-  },
-  {
-    "flipbook_texture": "textures/blocks/repeating_command_block_back",
-    "atlas_tile": "repeating_command_block_back"
-  },
-  {
-    "flipbook_texture": "textures/blocks/repeating_command_block_conditional",
-    "atlas_tile": "repeating_command_block_conditional"
-  },
-  {
-    "flipbook_texture": "textures/blocks/repeating_command_block_front",
-    "atlas_tile": "repeating_command_block_front"
-  },
-  {
-    "flipbook_texture": "textures/blocks/repeating_command_block_side",
-    "atlas_tile": "repeating_command_block_side"
-  },
-  
-  //Items
-  
-  {
-    "flipbook_texture": "textures/items/blaze_rod",
-    "atlas_tile": "blaze_rod"
-  },
-  {
-    "flipbook_texture": "textures/items/bucket_cod",
-    "atlas_tile": "bucket_cod"
-  },
-  {
-    "flipbook_texture": "textures/items/bucket_lava",
-    "atlas_tile": "bucket_lava"
-  },
-  {
-    "flipbook_texture": "textures/items/bucket_milk",
-    "atlas_tile": "bucket_milk"
-  },
-  {
-    "flipbook_texture": "textures/items/bucket_pufferfish",
-    "atlas_tile": "bucket_pufferfish"
-  },
-    {
-    "flipbook_texture": "textures/items/bucket_salmon",
-    "atlas_tile": "bucket_salmon"
-  },
-  {
-    "flipbook_texture": "textures/items/bucket_tropical",
-    "atlas_tile": "bucket_tropical"
-  },
-  {
-    "flipbook_texture": "textures/items/bucket_water",
-    "atlas_tile": "bucket_water"
-  },
-  {
-    "flipbook_texture": "textures/items/comparator",
-    "atlas_tile": "comparator"
-  },
-  {
-    "flipbook_texture": "textures/items/compass_atlas",
-    "atlas_tile": "compass_atlas"
-  },
-  {
-    "flipbook_texture": "textures/items/diamond",
-    "atlas_tile": "diamond"
-  },
-  {
-    "flipbook_texture": "textures/items/diamond_axe",
-    "atlas_tile": "diamond_axe"
-  },
-  {
-    "flipbook_texture": "textures/items/diamond_pickaxe",
-    "atlas_tile": "diamond_pickaxe"
-  },
-  {
-    "flipbook_texture": "textures/items/diamond_shovel",
-    "atlas_tile": "diamond_shovel"
-  },
-  {
-    "flipbook_texture": "textures/items/diamond_sword",
-    "atlas_tile": "diamond_sword"
-  },
-	{
-    "flipbook_texture": "textures/items/ender_eye",
-    "atlas_tile": "ender_eye"
-  },
-	{
-    "flipbook_texture": "textures/items/experience_bottle",
-    "atlas_tile": "experience_bottle"
-  },
-  {
-    "flipbook_texture": "textures/items/flint_and_steel",
-    "atlas_tile": "flint_and_steel"
-  },
-  {
-    "flipbook_texture": "textures/items/glowstone_dust",
-    "atlas_tile": "glowstone_dust"
-  },
-  {
-    "flipbook_texture": "textures/items/gold_ingot",
-    "atlas_tile": "gold_ingot"
-  },
-  {
-    "flipbook_texture": "textures/items/gold_nugget",
-    "atlas_tile": "gold_nugget"
-  },
-  {
-    "flipbook_texture": "textures/items/honeycomb",
-    "atlas_tile": "honeycomb"
-  },
-  {
-    "flipbook_texture": "textures/items/iron_ingot",
-    "atlas_tile": "iron_ingot"
-  },
-  {
-    "flipbook_texture": "textures/items/iron_nugget",
-    "atlas_tile": "iron_nugget"
-  },
-  {
-    "flipbook_texture": "textures/items/netherite_ingot",
-    "atlas_tile": "netherite_ingot"
-  },
-  {
-    "flipbook_texture": "textures/items/redstone_dust",
-    "atlas_tile": "redstone"
-  },
-  {
-    "flipbook_texture": "textures/items/repeater",
-    "atlas_tile": "repeater"
-  },
-	{
-    "flipbook_texture": "textures/items/slimeball",
-    "atlas_tile": "slimeball"
-  },
-	{
-    "flipbook_texture": "textures/items/spider_eye_fermented",
-    "atlas_tile": "spider_eye_fermented"
-  },
-  {
-    "flipbook_texture": "textures/items/suspicious_stew",
-    "atlas_tile": "suspicious_stew"
-  },
-  {
-    "flipbook_texture": "textures/items/watch_atlas",
-    "atlas_tile": "watch_atlas",
+    "flipbook_texture": "textures/blocks/warped_stem",
+    "atlas_tile": "warped_stem_side",
+    "ticks_per_frame": 20
   }
 ]
