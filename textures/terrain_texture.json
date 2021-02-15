@@ -1178,7 +1178,7 @@
           "path": "textures/blocks/grass_block_side",
           "overlay_color": "#507a32"
         },
-        "textures/blocks/grass_block_side_snowed"
+        "textures/blocks/grass_block_snow"
       ]
     },
 		"grass_top": {
