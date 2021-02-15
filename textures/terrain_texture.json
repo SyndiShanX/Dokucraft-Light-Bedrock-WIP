@@ -691,7 +691,7 @@
 			"textures" : "textures/blocks/crafting_table_top"
 		},
 		"crimson_door_lower" : {
-			"textures" : "textures/blocks/crimson_door_lower"
+			"textures" : "textures/blocks/crimson_door_bottom"
 		},
 		"crimson_door_top" : {
 			"textures" : "textures/blocks/crimson_door_top"
@@ -827,7 +827,7 @@
 		},
 		"door_lower" : {
 			"textures" : [
-				"textures/blocks/wood_door_bottom",
+				"textures/blocks/oak_door_bottom",
 				"textures/blocks/spruce_door_bottom",
 				"textures/blocks/birch_door_bottom",
 				"textures/blocks/jungle_door_bottom",
@@ -838,7 +838,7 @@
 		},
 		"door_upper" : {
 			"textures" : [
-				"textures/blocks/wood_door_top",
+				"textures/blocks/oak_door_top",
 				"textures/blocks/spruce_door_top",
 				"textures/blocks/birch_door_top",
 				"textures/blocks/jungle_door_top",
@@ -3052,7 +3052,7 @@
 			"textures" : "textures/blocks/vine_carried"
 		},
 		"warped_door_lower" : {
-			"textures" : "textures/blocks/warped_door_lower"
+			"textures" : "textures/blocks/warped_door_bottom"
 		},
 		"warped_door_top" : {
 			"textures" : "textures/blocks/warped_door_top"
