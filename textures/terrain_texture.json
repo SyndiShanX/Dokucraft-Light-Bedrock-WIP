@@ -189,7 +189,14 @@
 			}
 		},
 		"blackstone_top" : {
-			"textures" : "textures/blocks/blackstone_top"
+			"textures": {
+				"variations": [
+					{ "path": "textures/blocks/blackstone/0"},
+					{ "path": "textures/blocks/blackstone/1"},
+					{ "path": "textures/blocks/blackstone/2"},
+					{ "path": "textures/blocks/blackstone/3"}
+				]
+			}
 		},
 		"blast_furnace" : {
 			"textures" : [
@@ -690,16 +697,16 @@
 			"textures" : "textures/blocks/crimson_door_top"
 		},
 		"crimson_log_side" : {
-			"textures" : "textures/blocks/crimson_log_side"
+			"textures" : "textures/blocks/crimson_stem"
 		},
 		"crimson_log_top" : {
-			"textures" : "textures/blocks/crimson_log_top"
+			"textures" : "textures/blocks/crimson_stem_top"
 		},
 		"crimson_nylium_side" : {
 			"textures" : "textures/blocks/crimson_nylium_side"
 		},
 		"crimson_nylium_top" : {
-			"textures" : "textures/blocks/crimson_nylium_top"
+			"textures" : "textures/blocks/crimson_nylium"
 		},
 		"crimson_planks" : {
 			"textures" : "textures/blocks/crimson_planks"
@@ -801,10 +808,10 @@
 			"textures" : "textures/blocks/dirt"
 		},
 		"dirt_podzol_side" : {
-			"textures" : "textures/blocks/dirt_podzol_side"
+			"textures" : "textures/blocks/podzol_side"
 		},
 		"dirt_podzol_top" : {
-			"textures" : "textures/blocks/dirt_podzol_top"
+			"textures" : "textures/blocks/podzol_top"
 		},
 		"dispenser_front_horizontal" : {
 			"textures" : "textures/blocks/dispenser_front"
@@ -2010,12 +2017,12 @@
 		"netherrack" : {
 			"textures": {
 				"variations": [
-					{ "path": "textures/blocks/netherrack/0"},
-					{ "path": "textures/blocks/netherrack/1"},
-					{ "path": "textures/blocks/netherrack/2"},
-					{ "path": "textures/blocks/netherrack/3"},
-					{ "path": "textures/blocks/netherrack/4"},
-					{ "path": "textures/blocks/netherrack/5"}
+					{ "path": "textures/blocks/netherrack/0", "weight": 825 },
+					{ "path": "textures/blocks/netherrack/1", "weight": 825 },
+					{ "path": "textures/blocks/netherrack/2", "weight": 25 },
+					{ "path": "textures/blocks/netherrack/3", "weight": 800 },
+					{ "path": "textures/blocks/netherrack/4", "weight": 5 },
+					{ "path": "textures/blocks/netherrack/5", "weight": 5 }
 				]
 			}
 		},
@@ -3054,7 +3061,7 @@
 			"textures" : "textures/blocks/warped_nylium_side"
 		},
 		"warped_nylium_top" : {
-			"textures" : "textures/blocks/warped_nylium_top"
+			"textures" : "textures/blocks/warped_nylium"
 		},
 		"warped_planks" : {
 			"textures" : "textures/blocks/warped_planks"
